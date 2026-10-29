@@ -1,0 +1,700 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050807">
+
+    <title>MIDO.DEV | Developer Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header class="navbar">
+        <div class="container nav-inner">
+
+            <a href="#home" class="brand" aria-label="MIDO home">
+                <div class="brand-icon">&lt;/&gt;</div>
+                <div class="brand-name">MIDO<span>.DEV</span></div>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+                <a href="#about" data-ar="نبذة عني" data-en="About">نبذة عني</a>
+                <a href="projects" data-ar="مشاريعي" data-en="Projects">مشاريعي</a>
+                <a href="#contact" data-ar="تواصل معي" data-en="Contact">تواصل معي</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="small-button" id="langButton" type="button">
+                    EN
+                </button>
+
+                <button
+                    class="small-button menu-button"
+                    id="menuButton"
+                    type="button"
+                    aria-label="فتح القائمة"
+                    aria-expanded="false"
+                >☰</button>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-copy reveal">
+
+                    <div class="status-pill">
+                        <span class="status-light"></span>
+                        <span
+                            data-ar="مطور طموح | بتعلم كل يوم"
+                            data-en="Aspiring Developer | Always Learning"
+                        >مطور طموح | بتعلم كل يوم</span>
+                    </div>
+
+                    <h1>
+                        <span data-ar="أهلاً، أنا" data-en="Hello, I'm">
+                            أهلاً، أنا
+                        </span>
+                        <span class="name">MIDO<span class="cursor">_</span></span>
+                    </h1>
+
+                    <p class="hero-subtitle"
+                       data-ar="ببني أفكاري سطر كود في كل مرة."
+                       data-en="Building ideas, one line of code at a time.">
+                        ببني أفكاري سطر كود في كل مرة.
+                    </p>
+
+                    <p class="hero-description"
+                       data-ar="أنا أحمد، مهتم بالبرمجة والتكنولوجيا والذكاء الاصطناعي. بتعلم، بجرب، وبشتغل على مشاريع زي CodeBox علشان أحول أفكاري لحاجات حقيقية."
+                       data-en="I'm Ahmed, passionate about programming, technology, and AI. I learn, experiment, and build projects like CodeBox to turn ideas into real products.">
+                        أنا أحمد، مهتم بالبرمجة والتكنولوجيا والذكاء الاصطناعي.
+                        بتعلم، بجرب، وبشتغل على مشاريع زي CodeBox علشان أحول أفكاري لحاجات حقيقية.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="button button-primary">
+                            <span data-ar="شوف مشاريعي" data-en="Explore Projects">
+                                شوف مشاريعي
+                            </span>
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#contact" class="button button-outline">
+                            <span data-ar="تواصل معايا" data-en="Get in Touch">
+                                تواصل معايا
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <span>01 / CREATIVITY</span>
+                        <span>02 / CODE</span>
+                        <span>03 / INNOVATION</span>
+                    </div>
+
+                </div>
+
+                <!-- CODE TERMINAL -->
+
+                <div class="hero-terminal terminal-window reveal">
+
+                    <div class="terminal-bar">
+                        <div class="terminal-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green-dot"></span>
+                        </div>
+
+                        <span class="terminal-name">mido@portfolio: ~</span>
+                        <span class="terminal-name">bash</span>
+                    </div>
+
+                    <div class="terminal-content">
+
+                        <div class="code-line">
+                            <span class="line-number">01</span>
+                            <span class="code-green">const</span>
+                            <span class="code-blue"> developer</span>
+                            <span class="code-white"> = {</span>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">02</span>
+                            &nbsp;&nbsp;<span class="code-purple">name</span>:
+                            <span class="code-yellow">'Mido'</span>,
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">03</span>
+                            &nbsp;&nbsp;<span class="code-purple">role</span>:
+                            <span class="code-yellow">'Developer in progress'</span>,
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">04</span>
+                            &nbsp;&nbsp;<span class="code-purple">interests</span>: [
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">05</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-yellow">'Programming'</span>,
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">06</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-yellow">'Artificial Intelligence'</span>,
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">07</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-yellow">'Building Projects'</span>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">08</span>
+                            &nbsp;&nbsp;],
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">09</span>
+                            &nbsp;&nbsp;<span class="code-purple">project</span>:
+                            <span class="code-yellow">'CodeBox'</span>,
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">10</span>
+                            &nbsp;&nbsp;<span class="code-purple">learning</span>:
+                            <span class="code-green">true</span>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="line-number">11</span>
+                            <span class="code-white">};</span>
+                        </div>
+
+                        <div class="code-line" style="margin-top: 22px;">
+                            <span class="line-number">12</span>
+                            <span class="code-green">console.log</span><span class="code-white">(</span><span class="code-yellow">'Hello, World!'</span><span class="code-white">);</span>
+                        </div>
+
+                    </div>
+
+                    <div class="terminal-footer">
+                        <span>● JavaScript</span>
+                        <span>UTF-8</span>
+                        <span>Ln 12, Col 1</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+
+        <section class="section" id="about">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <div class="section-label">01 — ABOUT ME</div>
+
+                    <h2 class="section-title"
+                        data-ar="نبذة عني"
+                        data-en="A little about me">
+                        نبذة عني
+                    </h2>
+
+                    <p class="section-description"
+                       data-ar="كل مطور بدأ من الصفر. دي رحلتي في عالم البرمجة والتكنولوجيا."
+                       data-en="Every developer starts somewhere. This is my journey into programming and technology.">
+                        كل مطور بدأ من الصفر. دي رحلتي في عالم البرمجة والتكنولوجيا.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+
+                    <article class="terminal-window about-card reveal">
+
+                        <div class="prompt">$ whoami</div>
+
+                        <h3 data-ar="أنا أحمد محمد 👨‍💻"
+                            data-en="I'm Ahmed Mohamed 👨‍💻">
+                            أنا أحمد محمد 👨‍💻
+                        </h3>
+
+                        <p
+                            data-ar="بحب الكمبيوتر والتكنولوجيا، وعندي شغف إني أفهم البرامج بتشتغل إزاي وأصنع أدوات ومواقع بنفسي."
+                            data-en="I love computers and technology. I'm curious about how software works and enjoy building websites and tools myself."
+                        >
+                            بحب الكمبيوتر والتكنولوجيا، وعندي شغف إني أفهم البرامج
+                            بتشتغل إزاي وأصنع أدوات ومواقع بنفسي.
+                        </p>
+
+                        <p
+                            data-ar="بتعلم البرمجة خطوة بخطوة، وبجرب أفكار جديدة، وبعتبر كل مشروع فرصة أتعلم منها حاجة مختلفة."
+                            data-en="I'm learning programming step by step, exploring new ideas, and treating every project as a chance to learn something new."
+                        >
+                            بتعلم البرمجة خطوة بخطوة، وبجرب أفكار جديدة،
+                            وبعتبر كل مشروع فرصة أتعلم منها حاجة مختلفة.
+                        </p>
+
+                        <p
+                            data-ar="هدفي في المستقبل إني أصبح Software Engineer وأشارك في بناء منتجات مفيدة ومبتكرة."
+                            data-en="My long-term goal is to become a software engineer and help build useful, innovative products."
+                        >
+                            هدفي في المستقبل إني أصبح Software Engineer
+                            وأشارك في بناء منتجات مفيدة ومبتكرة.
+                        </p>
+
+                    </article>
+
+                    <article class="terminal-window about-card reveal">
+
+                        <div class="prompt">$ cat profile.json</div>
+
+                        <h3 data-ar="ملفي الشخصي" data-en="Profile Overview">
+                            ملفي الشخصي
+                        </h3>
+
+                        <div class="fact-list">
+
+                            <div class="fact">
+                                <span data-ar="الاسم" data-en="Name">الاسم</span>
+                                <span>Mido / Ahmed</span>
+                            </div>
+
+                            <div class="fact">
+                                <span data-ar="المجال" data-en="Field">المجال</span>
+                                <span data-ar="البرمجة" data-en="Programming">البرمجة</span>
+                            </div>
+
+                            <div class="fact">
+                                <span data-ar="الاهتمام" data-en="Interest">الاهتمام</span>
+                                <span>AI & Technology</span>
+                            </div>
+
+                            <div class="fact">
+                                <span data-ar="المشروع" data-en="Project">المشروع</span>
+                                <span>CodeBox</span>
+                            </div>
+
+                            <div class="fact">
+                                <span data-ar="الهدف" data-en="Goal">الهدف</span>
+                                <span>Software Engineer</span>
+                            </div>
+
+                        </div>
+
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">AI</span>
+                            <span class="skill-tag">GitHub</span>
+                        </div>
+
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS / CODEBOX -->
+
+        <section class="section codebox-section" id="projects">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <div class="section-label">02 — FEATURED PROJECT</div>
+
+                    <h2 class="section-title"
+                        data-ar="مشروعي المميز"
+                        data-en="Featured Project">
+                        مشروعي المميز
+                    </h2>
+
+                    <p class="section-description"
+                       data-ar="فكرة بدأت كخطوة في التعلم، وبشتغل على تطويرها وتحسينها."
+                       data-en="A project that started as a learning journey and keeps evolving with every improvement.">
+                        فكرة بدأت كخطوة في التعلم، وبشتغل على تطويرها وتحسينها.
+                    </p>
+                </div>
+
+                <article class="project-card reveal">
+
+                    <div class="project-info">
+
+                        <span class="project-badge">MY PROJECT / 001</span>
+
+                        <h3>Code<span>Box</span></h3>
+
+                        <p
+                            data-ar="CodeBox هو مشروعي لتجميع أدوات برمجية في مكان واحد، بهدف تسهيل بعض المهام اليومية للمطورين والمتعلمين."
+                            data-en="CodeBox is my project for bringing developer tools together in one place, helping learners and developers handle everyday tasks more easily."
+                        >
+                            CodeBox هو مشروعي لتجميع أدوات برمجية في مكان واحد،
+                            بهدف تسهيل بعض المهام اليومية للمطورين والمتعلمين.
+                        </p>
+
+                        <div class="project-features">
+
+                            <div class="project-feature">
+                                <span class="check">✓</span>
+                                <span data-ar="أدوات مفيدة للمطورين"
+                                      data-en="Useful developer tools">
+                                    أدوات مفيدة للمطورين
+                                </span>
+                            </div>
+
+                            <div class="project-feature">
+                                <span class="check">✓</span>
+                                <span data-ar="أفكار للمساعدة بالذكاء الاصطناعي"
+                                      data-en="AI-powered assistance ideas">
+                                    أفكار للمساعدة بالذكاء الاصطناعي
+                                </span>
+                            </div>
+
+                            <div class="project-feature">
+                                <span class="check">✓</span>
+                                <span data-ar="تطوير مستمر وتجارب جديدة"
+                                      data-en="Continuous improvements and experiments">
+                                    تطوير مستمر وتجارب جديدة
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <!-- ضع رابط مشروعك الحقيقي هنا بعد نشره -->
+                        <a
+                            href="https://codebox5-0125.streamlit.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="button button-primary"
+                        >
+                            <span data-ar="استكشف codeBox"
+                                  data-en="Explore codeBox">
+                                استكشف codeBox
+                            </span>
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                    <div class="project-preview">
+
+                        <div class="preview-screen">
+
+                            <div class="preview-header">
+                                <div class="preview-logo">Code<span>Box</span></div>
+                                <div class="preview-status">● ONLINE CONCEPT</div>
+                            </div>
+
+                            <h3 class="preview-title">
+                                <span data-ar="مساحة واحدة." data-en="One space.">
+                                    مساحة واحدة.
+                                </span>
+                                <br>
+                                <span data-ar="أفكار بلا حدود."
+                                      data-en="Endless possibilities.">
+                                    أفكار بلا حدود.
+                                </span>
+                            </h3>
+
+                            <p class="preview-text"
+                               data-ar="أدواتك البرمجية في مكان واحد."
+                               data-en="Your developer tools in one place.">
+                                أدواتك البرمجية في مكان واحد.
+                            </p>
+
+                            <div class="preview-tools">
+
+                                <div class="preview-tool">
+                                    <span>⌘</span>
+                                    <span data-ar="أدوات المطور"
+                                          data-en="Dev Tools">
+                                        أدوات المطور
+                                    </span>
+                                </div>
+
+                                <div class="preview-tool">
+                                    <span>🤖</span>
+                                    <span data-ar="المساعد الذكي"
+                                          data-en="AI Assistant">
+                                        المساعد الذكي
+                                    </span>
+                                </div>
+
+                                <div class="preview-tool">
+                                    <span>{ }</span>
+                                    <span data-ar="مولد الأكواد"
+                                          data-en="Code Generator">
+                                        مولد الأكواد
+                                    </span>
+                                </div>
+
+                                <div class="preview-tool">
+                                    <span>⚡</span>
+                                    <span data-ar="أدوات سريعة"
+                                          data-en="Quick Tools">
+                                        أدوات سريعة
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+
+        <section class="section" id="contact">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <div class="section-label">03 — CONTACT</div>
+
+                    <h2 class="section-title"
+                        data-ar="خلينا نتواصل"
+                        data-en="Let's connect">
+                        خلينا نتواصل
+                    </h2>
+
+                    <p class="section-description"
+                       data-ar="تقدر تتابع رحلتي في البرمجة ومشاريعي من خلال الروابط دي."
+                       data-en="Follow my coding journey and projects through the links below.">
+                        تقدر تتابع رحلتي في البرمجة ومشاريعي من خلال الروابط دي.
+                    </p>
+                </div>
+
+                <div class="contact-panel reveal">
+
+                    <div class="contact-symbol">&lt;/&gt;</div>
+
+                    <h2 data-ar="كل سطر كود بيقربني من هدفي."
+                        data-en="Every line of code brings me closer to my goal.">
+                        كل سطر كود بيقربني من هدفي.
+                    </h2>
+
+                    <p
+                        data-ar="لسه في بداية الطريق، لكن عندي أفكار كتير وحماس إني أتعلم وأبني حاجات جديدة."
+                        data-en="I'm still at the beginning, with plenty of ideas and the motivation to learn and build new things."
+                    >
+                        لسه في بداية الطريق، لكن عندي أفكار كتير
+                        وحماس إني أتعلم وأبني حاجات جديدة.
+                    </p>
+
+                    <div class="social-links">
+
+                        <!-- استبدل الروابط بروابط حساباتك الصحيحة -->
+
+                        <a
+                            href="https://github.com/ahmedelsayedd212-sudo/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="social-link"
+                        >
+                            <span class="social-icon">GH</span>
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.instagram.com/ahmed.elsyead/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="social-link"
+                        >
+                            <span class="social-icon">IG</span>
+                            Instagram
+                        </a>
+
+                        <a
+                            href="https://www.tiktok.com/@mido.elsyead"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="social-link"
+                        >
+                            <span class="social-icon">TT</span>
+                            TikTok
+                        </a>
+                       <a
+    href="https://wa.me/0153378157"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="social-link whatsapp-link"
+>
+    <span class="social-icon">WA</span>
+    <span>تواصل معي واتساب</span>
+    <span>↗</span>
+</a>   
+ <span></span>
+
+                    </div>
+
+                    <div class="social-note"
+                         data-ar="ملاحظة: اربط كل زر بحسابك الشخصي قبل نشر الموقع."
+                         data-en="Note: Update each link to your own profile before publishing.">
+                        ملاحظة: اربط كل زر بحسابك الشخصي قبل نشر الموقع.
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container footer-inner">
+
+            <div>
+                © <span id="year"></span>
+                <span class="footer-brand">MIDO.DEV</span>
+                <span data-ar="— اتعلم وابتكر." data-en="— Learn and innovate.">
+                    — اتعلم وابتكر.
+                </span>
+            </div>
+
+            <a href="#home" class="back-top">
+                <span data-ar="العودة للأعلى ↑" data-en="Back to top ↑">
+                    العودة للأعلى ↑
+                </span>
+            </a>
+
+        </div>
+    </footer>
+
+    <script>
+        // =====================================
+        // MIDO.DEV — INTERACTIONS
+        // =====================================
+
+        const body = document.body;
+        const langButton = document.getElementById("langButton");
+        const menuButton = document.getElementById("menuButton");
+        const navLinks = document.getElementById("navLinks");
+
+        let currentLanguage = "ar";
+
+        // Update the current year automatically.
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+
+        // Arabic / English language switch.
+        function setLanguage(language) {
+            currentLanguage = language;
+
+            const isEnglish = language === "en";
+
+            body.classList.toggle("english", isEnglish);
+            body.lang = isEnglish ? "en" : "ar";
+            body.dir = isEnglish ? "ltr" : "rtl";
+
+            document.querySelectorAll("[data-ar][data-en]")
+                .forEach(element => {
+                    element.textContent = isEnglish
+                        ? element.dataset.en
+                        : element.dataset.ar;
+                });
+
+            langButton.textContent = isEnglish ? "AR" : "EN";
+
+            menuButton.setAttribute(
+                "aria-label",
+                isEnglish ? "Open menu" : "فتح القائمة"
+            );
+
+            document.documentElement.lang =
+                isEnglish ? "en" : "ar";
+
+            document.documentElement.dir =
+                isEnglish ? "ltr" : "rtl";
+
+            try {
+                document.title = isEnglish
+                    ? "MIDO.DEV | Developer Portfolio"
+                    : "MIDO.DEV | موقعي الشخصي";
+            } catch (error) {
+                console.warn("Could not update page title.", error);
+            }
+        }
+
+        langButton.addEventListener("click", () => {
+            setLanguage(currentLanguage === "ar" ? "en" : "ar");
+        });
+
+        // Mobile navigation menu.
+        menuButton.addEventListener("click", () => {
+            const isOpen = navLinks.classList.toggle("open");
+
+            menuButton.setAttribute(
+                "aria-expanded",
+                String(isOpen)
+            );
+
+            menuButton.textContent = isOpen ? "✕" : "☰";
+        });
+
+        // Close mobile menu after selecting a section.
+        navLinks.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("open");
+                menuButton.setAttribute("aria-expanded", "false");
+                menuButton.textContent = "☰";
+            });
+        });
+
+        // Reveal elements smoothly while scrolling.
+        const revealElements = document.querySelectorAll(".reveal");
+
+        if ("IntersectionObserver" in window) {
+            const observer = new IntersectionObserver(
+                (entries, observerInstance) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("visible");
+                            observerInstance.unobserve(entry.target);
+                        }
+                    });
+                },
+                {
+                    threshold: 0.12
+                }
+            );
+
+            revealElements.forEach(element => {
+                observer.observe(element);
+            });
+        } else {
+            revealElements.forEach(element => {
+                element.classList.add("visible");
+            });
+        }
+
+        // Initial page setup.
+        setLanguage("ar");
+    </script>
+
+</body>
+</html>
